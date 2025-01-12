@@ -15,27 +15,20 @@ This project is a chatbot that allows users to upload documents and ask question
 - Answer user questions related to the content of uploaded documents.
 - Provide a search functionality for query history.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <URL of your repository>
-   cd <repository name>
-   ```
-
-2. Create and activate a Python virtual environment:
+1. Create and activate a Python virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # For Linux/macOS
    venv\Scripts\activate     # For Windows
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Ensure that the Ollama API is running on a local server (e.g., `http://localhost:11434`).
+3. Ensure that the Ollama API is running on a local server (e.g., `http://localhost:11434`).
 
 ## Usage
 
