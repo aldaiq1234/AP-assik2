@@ -1,89 +1,91 @@
-Вот пример файла `README.md` для вашего проекта:
+Here is the `README.md` file for your project written in English:
 
 ```markdown
+# Ollama Chatbot with File Uploads
 
+## Description
 
-Данный проект представляет собой чат-бота, который позволяет пользователю загружать документы и задавать вопросы по их содержанию. Бот отвечает на вопросы, используя контекст загруженных файлов, а также интеграцию с **Ollama API** для генерации ответов.
+This project is a chatbot that allows users to upload documents and ask questions based on their content. The bot provides answers using the context of the uploaded files and integrates with **Ollama API** to generate responses.
 
-## Возможности
+## Features
 
-- Загрузка файлов форматов `.txt`, `.pdf`, `.docx` (одного или нескольких одновременно).
-- Извлечение текста из загруженных файлов.
-- Сохранение содержимого файлов в базе данных **ChromaDB** для поиска контекста.
-- Ответы на вопросы пользователя, связанные с содержимым загруженных документов.
-- Возможность поиска по истории запросов.
+- Upload files in `.txt`, `.pdf`, and `.docx` formats (either one or multiple files at a time).
+- Extract text from uploaded files.
+- Save the content of the files to the **ChromaDB** database for context-based search.
+- Answer user questions related to the content of uploaded documents.
+- Provide a search functionality for query history.
 
-## Установка
+## Installation
 
-1. Склонируйте репозиторий:
+1. Clone the repository:
    ```bash
-   git clone <URL вашего репозитория>
-   cd <название репозитория>
+   git clone <URL of your repository>
+   cd <repository name>
    ```
 
-2. Создайте виртуальную среду Python и активируйте её:
+2. Create and activate a Python virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Для Linux/macOS
-   venv\Scripts\activate     # Для Windows
+   source venv/bin/activate  # For Linux/macOS
+   venv\Scripts\activate     # For Windows
    ```
 
-3. Установите зависимости:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Убедитесь, что Ollama API доступен на локальном сервере (например, `http://localhost:11434`).
+4. Ensure that the Ollama API is running on a local server (e.g., `http://localhost:11434`).
 
-## Использование
+## Usage
 
-1. Запустите приложение:
+1. Run the application:
    ```bash
    streamlit run src/AP.py
    ```
 
-2. Откройте браузер и перейдите по адресу:
+2. Open your browser and navigate to:
    ```
    http://localhost:8501
    ```
 
-3. Загрузите файлы через интерфейс и задавайте вопросы по их содержимому.
+3. Upload files through the interface and ask questions based on their content.
 
-## Примеры
+## Examples
 
-- Загрузите файл `example.txt` с содержимым:
+- Upload a file named `example.txt` with the content:
   ```
   The capital of France is Paris.
   ```
-- Задайте вопрос: `What is the capital of France?`
-- Бот ответит: `The capital of France is Paris.`
+- Ask the question: `What is the capital of France?`
+- The bot will respond: `The capital of France is Paris.`
 
-## Структура репозитория
+## Repository Structure
 
 ```
 Project/
-├── README.md            # Документация
-├── LICENSE              # Лицензия
-├── requirements.txt     # Список зависимостей
-├── src/                 # Исходный код
-│   ├── AP.py            # Основное приложение
-├── test/                # Тесты
-│   ├── test_main.py     # Тесты для функций
+├── README.md            # Documentation
+├── LICENSE              # License
+├── requirements.txt     # List of dependencies
+├── src/                 # Source code
+│   ├── AP.py            # Main application
+├── test/                # Tests
+│   ├── test_main.py     # Tests for functions
 ```
 
-## Зависимости
+## Dependencies
 
-- `streamlit`: Интерфейс для работы с пользователем.
-- `chromadb`: База данных для контекстного поиска.
-- `PyPDF2`: Для обработки файлов `.pdf`.
-- `python-docx`: Для обработки файлов `.docx`.
-- `requests`: Для взаимодействия с Ollama API.
+- `streamlit`: User interface framework.
+- `chromadb`: Database for context-based search.
+- `PyPDF2`: For handling `.pdf` files.
+- `python-docx`: For handling `.docx` files.
+- `requests`: For communication with Ollama API.
 
-Установите все зависимости из файла `requirements.txt`.
+Install all dependencies using the `requirements.txt` file.
 
-## Лицензия
+## License
 
-Проект распространяется под [MIT License](LICENSE).
+This project is distributed under the [MIT License](LICENSE).
 ```
 
-Если нужно добавить больше деталей или уточнений, сообщите, и я помогу доработать.
+Let me know if you need further adjustments or additions!
