@@ -51,7 +51,8 @@ This project is a chatbot that allows users to upload documents and ask question
   Assignment2.txt
   ```
 - Ask the question: `can tou send me context?`
-- The bot will respond: ![Uploading image.png…]()
+- The bot will respond: ![image](https://github.com/user-attachments/assets/117af906-bcfe-493c-a45c-e15708aab967)
+
 
 
 ## Repository Structure
