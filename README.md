@@ -46,12 +46,13 @@ This project is a chatbot that allows users to upload documents and ask question
 
 ## Examples
 
-- Upload a file named `example.txt` with the content:
+- Upload a file named `AP.txt` with the content:
   ```
-  The capital of France is Paris.
+  Assignment2.txt
   ```
-- Ask the question: `What is the capital of France?`
-- The bot will respond: `The capital of France is Paris.`
+- Ask the question: `can tou send me context?`
+- The bot will respond: ![Uploading image.png…]()
+
 
 ## Repository Structure
 
