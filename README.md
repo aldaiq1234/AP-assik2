@@ -75,10 +75,3 @@ Project/
 - `requests`: For communication with Ollama API.
 
 Install all dependencies using the `requirements.txt` file.
-
-## License
-
-This project is distributed under the [MIT License](LICENSE).
-```
-
-Let me know if you need further adjustments or additions!
